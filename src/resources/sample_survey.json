@@ -1,0 +1,26 @@
+   {
+        "question": "What is your favorite food?"
+    }, 
+    {
+        "question": "What is your favorite color?", 
+        "choices": [
+            {
+                "choice": "Red"
+            }, 
+            {
+                "choice": "Orange"
+            }, 
+            {
+                "choice": "Yellow"
+            }, 
+            {
+                "choice": "Green"
+            }, 
+            {
+                "choice": "Blue"
+            }, 
+            {
+                "choice": "Purple"
+            }
+        ]
+    }
