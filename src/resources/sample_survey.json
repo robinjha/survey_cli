@@ -1,6 +1,7 @@
-   {
+{"questions":
+[   {
         "question": "What is your favorite food?"
-    }, 
+    },
     {
         "question": "What is your favorite color?", 
         "choices": [
@@ -23,4 +24,38 @@
                 "choice": "Purple"
             }
         ]
+    }, 
+    {
+        "question": "What kind of computer do you use?", 
+        "choices": [
+            {
+                "choice": "Mac", 
+                "follow-ups": [
+                    {
+                        "question": "What type of Mac do you own?", 
+                        "choices": [
+                            {
+                                "choice": "Notebook"
+                            }, 
+                            {
+                                "choice": "Desktop"
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "choice": "Windows"
+            }, 
+            {
+                "choice": "Other", 
+                "follow-ups": [
+                    {
+                        "question": "Other -- please describe."
+                    }
+                ]
+            }
+        ]
     }
+]
+}
